@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,79 +6,75 @@
     <title>Tailwind CSS with Parcel</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="flex">
-    <div class="text-center">
-      <h2
-        class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mt-4"
-      >
-        Restaurant
-      </h2>
-    </div>
-    <!-- div esquerre -->
-    <div class="bg-gray py-24 sm:py-32 ring-1 ring-inset ring-gray-900/5">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto max-w-2xl sm:text-center">
-          <h2
-            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
-          >
-            Qui som?
-          </h2>
-          <p class="mt-6 text-lg leading-8 text-gray-600">
-            Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et
-            quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.
-          </p>
-        </div>
-        <a
-          href="about.html"
-          class="mt-10 block w-full rounded-md bg-lime-900 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-lime-700"
-          >Veure</a
-        >
+  <body class="bg-gray-100">
+    <div class="text-center mt-10">
+      <div class="flex items-center justify-center">
+        <img src="./img/logo.png" alt="Logo" class="h-15 w-15 mr-2" />
       </div>
     </div>
-    <!-- div centre -->
-    <div
-      class="bg-gray py-24 sm:py-32 ring-1 ring-inset ring-gray-900/5 flex justify-center"
-    >
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto max-w-2xl sm:text-center">
-          <h2
-            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+    <div class="flex justify-between mt-4 mx-10">
+      <div class="bg-gray py-24 sm:py-32 rounded-lg shadow-lg w-1/3">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl sm:text-center">
+            <h2
+              class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+            >
+              Qui som?
+            </h2>
+            <p class="mt-6 text-lg leading-8 text-gray-600">
+              La nostra història comença fa més de dues dècades quan la passió
+              per la bona cuina va néixer en el cor d'una família unida pel
+              desig de crear plats exquisits.
+            </p>
+          </div>
+          <a
+            href="about.html"
+            class="mt-10 block w-full rounded-md bg-lime-900 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-lime-700"
+            >Veure</a
           >
-            Plats
-          </h2>
-          <p class="mt-6 text-lg leading-8 text-gray-600">
-            Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et
-            quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.
-          </p>
         </div>
-        <a
-          href="plats.html"
-          class="mt-10 block w-full rounded-md bg-lime-900 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-lime-700"
-          >Veure</a
-        >
       </div>
-    </div>
-    <!-- div dreta -->
-    <div
-      class="bg-gray py-24 sm:py-32 ring-1 ring-inset ring-gray-900/5 flex justify-center"
-    >
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto max-w-2xl sm:text-center">
-          <h2
-            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+      <div class="bg-gray py-24 sm:py-32 rounded-lg shadow-lg w-1/3 ml-4 mr-4">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl sm:text-center">
+            <h2
+              class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+            >
+              Plats
+            </h2>
+            <p class="mt-6 text-lg leading-8 text-gray-600">
+              La nostra carta és un mosaic de sabors que captiven els sentits.
+              Amb una gamma de plats que fusionen la tradició amb la
+              creativitat, t'oferim una experiència gastronòmica inoblidable.
+            </p>
+          </div>
+          <a
+            href="plats.html"
+            class="mt-10 block w-full rounded-md bg-lime-900 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-lime-700"
+            >Veure</a
           >
-            Enllaços
-          </h2>
-          <p class="mt-6 text-lg leading-8 text-gray-600">
-            Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et
-            quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.
-          </p>
         </div>
-        <a
-          href="#"
-          class="mt-10 block w-full rounded-md bg-lime-900 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover.bg-lime-700"
-          >Veure</a
-        >
+      </div>
+      <div class="bg-gray py-24 sm:py-32 rounded-lg shadow-lg w-1/3">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl sm:text-center">
+            <h2
+              class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+            >
+              Enllaços
+            </h2>
+            <p class="mt-6 text-lg leading-8 text-gray-600">
+              Aquesta web ha sigut desenvolupada fent servir una varietat de
+              recursos online que ens han ajudat a crear aquesta experiència
+              culinària.
+            </p>
+          </div>
+          <a
+            href="links.html"
+            class="mt-10 block w-full rounded-md bg-lime-900 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover.bg-lime-700"
+            >Veure</a
+          >
+        </div>
       </div>
     </div>
   </body>

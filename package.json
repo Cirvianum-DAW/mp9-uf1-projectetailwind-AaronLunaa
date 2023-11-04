@@ -2,7 +2,6 @@
   "name": "tailwind-parcel-project",
   "version": "1.0.0",
   "description": "Projecte que utilitza Tailwind CSS i Parcel",
-  "main": "src/index.js",
   "scripts": {
     "dev": "parcel src/index.html && parcel src/index.html --open",
     "build": "parcel build src/index.html"
@@ -22,6 +21,8 @@
     "parcel": "^2.0.0",
     "postcss": "^8.4.31",
     "postcss-import": "^15.1.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
